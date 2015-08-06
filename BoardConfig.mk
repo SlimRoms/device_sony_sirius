@@ -23,7 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,sirius
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/sirius/include
 
-BOARD_HARDWARE_CLASS += device/sony/sirius/cmhw
+BOARD_HARDWARE_CLASS += device/sony/shinano-common/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := slim_shinano_sirius_defconfig
@@ -35,6 +35,3 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/sony/sirius
 
-# SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/sony/sirius/sepolicy
