@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a4b7175_f0ab85d4",
+        "filename": "slim.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000162
+      },
+      "writtenOn": "2015-10-06T19:45:31Z",
+      "side": 1,
+      "message": "no longer needed in dependencies is already in default.xml in manifest",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 6
+      },
+      "revId": "f9377a36c894439ca7a73c7e5882deb754d4acc8",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
